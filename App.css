@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.add-box {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+}
+
+.add-box h2 {
+  margin-top: 0;
+}
+
+.add-box select,
+.add-box textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.add-box textarea {
+  height: 80px;
+  resize: none;
+}
+
+.add-box button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-box button:hover {
+  background: darkgreen;
+}
+
+.buttons {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: royalblue;
+  color: white;
+}
+
+.buttons button:hover {
+  background: #003ea8;
+}
+
+.card {
+  background: white;
+  margin: 15px 0;
+  padding: 15px;
+  border-left: 6px solid royalblue;
+  border-radius: 6px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+}
